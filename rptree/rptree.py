@@ -39,3 +39,4 @@ class _TreeGenerator:
     def _tree_head(self):
         self._tree.append(f"{self._root_dir}{os.sep}")
         self._tree.append(PIPE)
+
