@@ -41,8 +41,8 @@ class _TreeGenerator:
         self._tree.append(PIPE)
 
     def _tree_body(self, directory, prefix=""):
-        entrees = directory.iterdir()
-        entries = sorted(entrees, key=lambda entry: entry.is_file())
+        entries = directory.iterdir()
+        entries = sorted(entries, key=lambda entry: entry.is_file())
         entries_count = len(entries)
         for index, entry in enumerate(entries):
             connector = ELBOW if index == entries_count - 1 else TEE
