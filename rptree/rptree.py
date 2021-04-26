@@ -65,6 +65,7 @@ class _TreeGenerator:
             directory=directory,
             prefix=prefix,
         )
+        self._tree.append(prefix.rstrip())
 
     def _add_file(self, file, prefix, connector):
         self._tree.append(f"{prefix}{connector} {file.name}")
