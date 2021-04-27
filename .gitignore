@@ -1,2 +1,3 @@
+# TODO: ignore all folders named __pycache__ in current root folder and all subfolders one liner!!
 __pycache__
 /rptree/__pycache__/
